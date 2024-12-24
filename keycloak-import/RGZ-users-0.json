@@ -1,0 +1,73 @@
+{
+  "realm" : "RGZ",
+  "users" : [ {
+    "id" : "9ddcd5a3-82a9-4000-93cc-eb1f563a8716",
+    "username" : "darko",
+    "firstName" : "Darko",
+    "lastName" : "Vucetic",
+    "email" : "darko@rgz.gov.rs",
+    "emailVerified" : true,
+    "createdTimestamp" : 1731344498882,
+    "enabled" : true,
+    "totp" : false,
+    "credentials" : [ {
+      "id" : "df93929f-403e-4dd3-8c63-1323184cd2af",
+      "type" : "password",
+      "userLabel" : "My password",
+      "createdDate" : 1731344621506,
+      "secretData" : "{\"value\":\"nGW4Jw+pNONT9oh6X2sMCiQacZeWU8hUkfIJq+rf1vOxZxIo9dM4qK0wg1Qj5uuUysaNTCoeDEr3cYBLa/Qj+w==\",\"salt\":\"8qwmhFZp/EDDtFweIr4F2Q==\",\"additionalParameters\":{}}",
+      "credentialData" : "{\"hashIterations\":210000,\"algorithm\":\"pbkdf2-sha512\",\"additionalParameters\":{}}"
+    } ],
+    "disableableCredentialTypes" : [ ],
+    "requiredActions" : [ ],
+    "realmRoles" : [ "default-roles-rgz" ],
+    "notBefore" : 0,
+    "groups" : [ ]
+  }, {
+    "id" : "7097bd64-ef0e-4d4d-869f-d8983f3902af",
+    "username" : "dejan",
+    "firstName" : "Dejan",
+    "lastName" : "Draskovic",
+    "email" : "dejan@rgz.gov.rs",
+    "emailVerified" : true,
+    "createdTimestamp" : 1717961677963,
+    "enabled" : true,
+    "totp" : false,
+    "credentials" : [ {
+      "id" : "9e1c8ce4-239d-4590-b889-0048a46cf516",
+      "type" : "password",
+      "userLabel" : "My password",
+      "createdDate" : 1717961728190,
+      "secretData" : "{\"value\":\"Sl5IpPuAxjuo/obeZRR93hc+EQt7WJSYWsB/y5QPYUzYOaZircGQW397HRBl0A+6Cw0Iz5Jb5otQg0L+gh9imA==\",\"salt\":\"BPDs3uUIx8FmwOSXwOwxgg==\",\"additionalParameters\":{}}",
+      "credentialData" : "{\"hashIterations\":210000,\"algorithm\":\"pbkdf2-sha512\",\"additionalParameters\":{}}"
+    } ],
+    "disableableCredentialTypes" : [ ],
+    "requiredActions" : [ ],
+    "realmRoles" : [ "default-roles-rgz" ],
+    "notBefore" : 1731344572,
+    "groups" : [ ]
+  }, {
+    "id" : "a575d555-495a-4bd5-bed6-b981db436b65",
+    "username" : "jovan",
+    "firstName" : "Jovan",
+    "lastName" : "Vasic",
+    "email" : "jovanvasic123@gmail.com",
+    "emailVerified" : true,
+    "createdTimestamp" : 1731934305043,
+    "enabled" : true,
+    "totp" : false,
+    "credentials" : [ {
+      "id" : "5866df5a-776f-4340-af2c-4fa118a61a9c",
+      "type" : "password",
+      "userLabel" : "My password",
+      "createdDate" : 1731934322668,
+      "secretData" : "{\"value\":\"fu3CooA0XwezWbAg6v5nJKn2vje7G4imAiUGzRSEXop3KcdnZf6Iiu8JnoHMmB6NhAY6IRd0m7tnnHZaHH3nIA==\",\"salt\":\"pzUmG+igi6nc+b+jTk+e0g==\",\"additionalParameters\":{}}",
+      "credentialData" : "{\"hashIterations\":210000,\"algorithm\":\"pbkdf2-sha512\",\"additionalParameters\":{}}"
+    } ],
+    "disableableCredentialTypes" : [ ],
+    "requiredActions" : [ ],
+    "realmRoles" : [ "default-roles-rgz" ],
+    "notBefore" : 0,
+    "groups" : [ ]
+  } ]
+}
