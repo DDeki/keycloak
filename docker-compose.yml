@@ -13,6 +13,7 @@ services:
       - ./keycloak-import:/opt/keycloak/data/import
     ports:
       - "8180:8180"
+    restart: unless-stopped
 
 volumes:
   keycloak_data:
