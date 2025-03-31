@@ -6,6 +6,8 @@
   --teal-green: #2c7873; /* Deep teal color */
   --sage-green: #52ab98; /* Soft sage green */
   --light-gray: #f5f5f5;
+  --warm-gray: #e7e7e5;
+  --gray-blue: #f0f4f8;
   --primary-gradient-color: linear-gradient(
     90deg,
     var(--primary-blue) 30%,
@@ -36,15 +38,24 @@
   --pf-global--primary-color--200: var(--darker-blue);
 }
 
-body {
-  background-color: #e7e7e5 !important;
-  background-image: none !important;
+.login-pf body {
+  background: url(../img/robot-bg.png) no-repeat center center fixed;
+  background-size: cover;
+  height: 100%;
 }
 
 #kc-header-wrapper {
-  padding: 20px 10px 20px;
+  padding: 20px 10px;
 }
 
 div.kc-logo-text {
-  height: 220px;
+  background-image: none;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  margin: 0 auto;
+}
+
+.card-pf {
+  background-color: var(--gray-blue) !important;
 }
