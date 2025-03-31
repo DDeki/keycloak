@@ -1,16 +1,17 @@
-version: '3.8'
-
 services:
   keycloak:
     image: quay.io/keycloak/keycloak:24.0.5
     container_name: keycloak
-    command: start-dev --http-port=8180 --http-relative-path=/auth --import-realm
+    command:
+      start-dev --http-port=8180 --http-relative-path=/auth --import-realm
+      # --spi-theme-static-max-age=-1 --spi-theme-cache-themes=false --spi-theme-cache-templates=false
     environment:
       KEYCLOAK_ADMIN: admin
       KEYCLOAK_ADMIN_PASSWORD: admin
     volumes:
       - keycloak_data:/opt/keycloak/data
       - ./keycloak-import:/opt/keycloak/data/import
+      - ./themes:/opt/keycloak/themes
     ports:
       - "8180:8180"
     restart: unless-stopped
