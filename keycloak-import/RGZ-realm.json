@@ -1,6 +1,8 @@
 {
   "id" : "5f364ce4-fa88-4b04-bc80-688d5c9ab44c",
   "realm" : "RGZ",
+  "displayNameHtml": "<div class=\"kc-logo-text\"><span>realm name</span></div>",
+  "loginTheme": "custom-theme",
   "notBefore" : 0,
   "defaultSignatureAlgorithm" : "RS256",
   "revokeRefreshToken" : false,

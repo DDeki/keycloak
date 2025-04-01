@@ -2,7 +2,7 @@
 
 Keycloak for chatbots
 
-## Configuration
+## Theme Configuration
 
 Realm settings -> General -> HTML Display name
 
