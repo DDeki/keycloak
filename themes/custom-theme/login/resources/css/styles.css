@@ -39,8 +39,8 @@
 }
 
 .login-pf body {
-  background: url(../img/robot-bg.png) no-repeat center center fixed;
-  background-size: cover;
+  background: linear-gradient(160deg, #edf2f8 0%, #e6edf5 50%, #dde6f0 100%)
+    fixed;
   height: 100%;
 }
 
@@ -58,4 +58,7 @@ div.kc-logo-text {
 
 .card-pf {
   background-color: var(--gray-blue) !important;
+  box-shadow:
+    0 0 0 1px rgba(43, 117, 179, 0.12),
+    0 12px 32px rgba(20, 60, 110, 0.12);
 }
